@@ -30,7 +30,7 @@ The prototype focuses on building the core sensing and alert mechanism required 
 
 ## Hardware and Software Components
 
-![Hardware and Software Components](assets/components-table.png)
+![Hardware and Software Components](assets/Hardware%20and%20Software%20Components.png)
 
 ### Hardware Requirements
 
@@ -57,7 +57,7 @@ The prototype focuses on building the core sensing and alert mechanism required 
 
 The prototype was assembled using an Arduino board, ultrasonic sensor, buzzer, LED, breadboard, and connecting wires. The ultrasonic sensor was positioned near the bottle/container opening to measure the distance between the sensor and the water surface.
 
-![Experimental Setup](assets/experimental-setup.png)
+![Experimental Setup](assets/Experimental%20Support.png)
 
 ---
 
@@ -65,7 +65,7 @@ The prototype was assembled using an Arduino board, ultrasonic sensor, buzzer, L
 
 The system follows a sensor-to-actuator workflow where the ultrasonic sensor captures distance data, the Arduino processes the reading, and the buzzer/LED indicators respond based on predefined water-level thresholds.
 
-![System Flow](assets/system-flow.png)
+![System Flow](assets/System%20Flow.png)
 
 ### Architecture Flow
 
@@ -87,7 +87,7 @@ The system follows a sensor-to-actuator workflow where the ultrasonic sensor cap
 
 The system classifies the detected water level into three categories: minimum, normal, and maximum. Each condition triggers a specific buzzer and LED response.
 
-![Water Level Indication Table](assets/water-level-table.png)
+![Water Level Indication Table](assets/Water%20Level%20Indication%20Table.png)
 
 | Water Level Condition | Description | Buzzer Status | LED Status |
 |---|---|---|---|
@@ -101,7 +101,7 @@ The system classifies the detected water level into three categories: minimum, n
 
 The buzzer and LED provide real-time feedback based on the detected water-level condition. This alert mechanism helps users identify whether the bottle/container requires refilling, is within the normal range, or has reached the maximum level.
 
-![Buzzer and LED Graph](assets/buzzer-led-graph.png)
+![Buzzer and LED Graph](assets/Buzzer%20and%20LED%20Graph.png)
 
 ---
 
@@ -238,11 +238,11 @@ Potential enhancements include:
     │   └── water_level_management.ino
     │
     ├── assets/
-    │   ├── components-table.png
-    │   ├── experimental-setup.png
-    │   ├── water-level-table.png
-    │   ├── system-flow.png
-    │   └── buzzer-led-graph.png
+    │   ├── Buzzer and LED Graph.png
+    │   ├── Experimental Support.png
+    │   ├── Hardware and Software Components.png
+    │   ├── System Flow.png
+    │   └── Water Level Indication Table.png
     │
     └── docs/
         └── project-report.pdf
