@@ -291,7 +291,7 @@ Example connection:
 
 ---
 
-## Resume Summary
+## Summary
 
 This project demonstrates the ability to design, build, test, and document a working embedded systems prototype for automatic water-level monitoring. It highlights hands-on experience with Arduino programming, ultrasonic sensor integration, real-time condition monitoring, threshold-based control logic, and hardware-based alert mechanisms. The project also shows the ability to extend a hardware prototype into a scalable IoT solution using cloud storage, dashboards, and smart notification features.
 
